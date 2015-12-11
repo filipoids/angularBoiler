@@ -12,13 +12,9 @@ var del          = require('del');
 
 var scripts = [
 	dirs.src.vendor+'/modernizr-2.8.3.min.js',
-	dirs.src.vendor+'/jquery/dist/jquery.js',
-	dirs.src.vendor+'/iscroll/build/iscroll-probe.js',
-	dirs.src.vendor+'/gsap/src/minified/TweenMax.min.js',
 	dirs.src.vendor+'/angular/angular.js',
 	dirs.src.vendor+'/angular-ui-router/release/angular-ui-router.js',
-	dirs.src.vendor+'/angular-animate/angular-animate.js',
-	dirs.src.vendor+'/angular-sanitize/angular-sanitize.js'
+	dirs.src.vendor+'/angular-animate/angular-animate.js'
 ];
 
 gulp.task('vendors:clean', function(next){
