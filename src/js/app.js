@@ -5,4 +5,4 @@
 		// N/A yet.
 	});
 
-})(angular.module('module', ['ngAnimate', 'ui.router']));
+})(angular.module('baseModule', ['ngAnimate', 'ui.router']));

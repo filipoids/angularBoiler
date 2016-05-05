@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="" ng-app="fiatToro">
+<html class="no-js" lang="" ng-app="baseModule">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,16 +15,6 @@
 
 </head>
 <body>
-	<div class="menu">
-		<ul class="menu-list">
-			<li class="menu-item">SOBRE</li>
-			<li class="menu-item" ui-sref="versoes.bar" ui-sref-active="active">VERSÕES</li>
-			<li class="menu-item" ui-sref="highlights" ui-sref-active="active">DESTAQUES</li>
-			<li class="menu-item">OPÇÕES E ACESSÓRIOS</li>
-			<li class="menu-item">OFERTAS</li>
-			<li class="menu-item">COMPRE</li>
-		</ul>
-	</div>
 	<section ui-view class="wrapper"></section>
 
 	<!-- BASE -->
@@ -35,10 +25,10 @@
 	<script src="js/config/routers.js"></script>
 
 	<!-- CONTROLLERS -->
-	<script src="js/controllers/exCtrl.js"></script>
+	<script src="js/controllers/baseCtrl.js"></script>
 
 	<!-- SERVICES -->
-	<script src="js/services/exService.js"></script>
+	<script src="js/services/baseServices.js"></script>
 
 </body>
 </html>

@@ -1,6 +1,5 @@
-angular.module('module').factory('exService', [
-	'$http', '$templateCache',
-	function($http, $templateCache){
+(function(app){
+	app.factory('baseService', ['$http', '$templateCache', function($http, $templateCache){
 		this.getHighlights = function(){
 			return [
 				{ "w":2, "h":2, "x":0, "y":0},
@@ -13,5 +12,8 @@ angular.module('module').factory('exService', [
 			];
 		};
 		return this;
-	}
-]);
+	}])
+})(angular.module('baseModule'));
+
+
+
